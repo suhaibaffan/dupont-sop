@@ -1,0 +1,20 @@
+{
+  "name": "dupont-sop",
+  "version": "1.0.0",
+  "description": "Create Standard Operating Procedures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhaibaffan/dupont-sop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhaibaffan/dupont-sop/issues"
+  },
+  "homepage": "https://github.com/suhaibaffan/dupont-sop#readme"
+}
