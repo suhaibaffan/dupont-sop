@@ -4,11 +4,28 @@
   "description": "Create Standard Operating Procedures.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node src/app.js",
+    "build": "babel src --out-dir build --source-maps inline"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/suhaibaffan/dupont-sop.git"
+  },
+  "babel": {
+    "plugins": [
+      "transform-object-rest-spread"
+    ],
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
   },
   "keywords": [],
   "author": "",
@@ -20,5 +37,9 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
