@@ -1,7 +1,10 @@
 import express from 'express';
 import path from 'path';
+import mongoose from 'mongoose';
+import { DB_HOST } from './env';
 import bodyParser from 'body-parser';
 
+mongoose.connect( DB_HOST );
 let app = express();
 
 app.use( bodyParser.urlencoded({ extended: false }) );

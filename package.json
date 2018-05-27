@@ -36,7 +36,9 @@
   "homepage": "https://github.com/suhaibaffan/dupont-sop#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
